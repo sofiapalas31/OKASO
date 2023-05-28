@@ -1,0 +1,427 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+padding: 0;
+font-family: 'Nunito', sans-serif;
+font-size: 20px;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+header{
+   background-color: #FFF9E3;
+   justify-content: space-between;
+   align-items: center;
+    display: flex;
+    padding: 1%;
+}
+header div img{
+    height: 60px;
+     width: 260px;
+}
+header a.btn button{
+
+    font-weight: 600;
+    color: #E68211;
+    padding: 9px 15px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+header a.btn button:hover{
+    background-color: bisque;
+    color: #FFF9E3;
+    transform: scale(1.1);
+}
+ul{
+
+    list-style:none;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    padding: 1% 15%;
+} 
+ul li:hover{
+    transform:scale(1.1);
+}
+nav ul a{
+   
+    font-size: 700;
+    color: #FFF9E3;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+#video{
+    background-color:antiquewhite;
+    width: auto;
+    height: 308px;
+}
+video{
+    width: auto;
+    height: auto;
+}
+#nosotros{
+    background-color:lightgoldenrodyellow;
+}
+nav{
+    background-color: #E68211;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+footer{
+    margin-top: 40px;
+background-color: #E68211;
+padding-left: 1%;
+}
+#newsletter{
+    background-color: lightgoldenrodyellow;
+}
+#ropa{
+    background-color: #FAEF69;
+
+
+}
+#bolsos{
+    background-color: #FDD15B;
+}
+#amigurumi{
+    background-color: #E3CB52;
+}
+.titulos{
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+.text-center{
+    text-align: center;
+}
+.margen{
+    margin: 10px;
+}
+.subtitulo{
+    margin: 40px;
+    
+}
+.justificar{
+    justify-content: center;
+}
+.contenedor{
+    display: flex;
+flex-direction: row;
+}
+/* imagenes de productos ropa*/
+.productoRopa1{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+}
+.productoRopa1 img{
+    width: 230px;
+    height: 300px;
+}
+.productoRopa2{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+}
+.productoRopa2 img{
+    width: 230px;
+    height: 300px;
+}
+.productoRopa3{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+}
+.productoRopa3 img{
+    width: 230px;
+    height: 300px;
+}
+.productoRopa4{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+}
+.productoRopa4 img{
+    width: 230px;
+    height: 300px;
+}
+/*imagenes de bolsos*/
+.productoBolso1{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+}
+.productoBolso1 img{
+    width: 230px;
+    height: 300px;
+}
+.productoBolso2{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+}
+.productoBolso2 img{
+    width: 320px; 
+    height: 210px;
+
+}
+.productoBolso3{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+
+}
+.productoBolso3 img{
+    width: 230px; 
+    height: 300px;
+
+}
+.productoBolso4{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+
+}
+.productoBolso4 img{
+    width: 230px; 
+    height: 300px;
+
+}
+/*imagenes de amigurumis*/
+.productoAmi1{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+
+}
+.productoAmi1 img{
+    width: 230px; 
+    height: 300px;
+
+}
+.productoAmi2{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+
+}
+.productoAmi2 img{
+    width: 230px; 
+    height: 300px;
+
+}
+.productoAmi3{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+
+}
+.productoAmi3 img{
+    width: 240px; 
+    height: 310px;
+
+}
+.productoAmi4{
+    text-align: center;
+    margin-right: 100px;
+    margin: 40px;
+
+}
+.productoAmi4 img{
+    width: 240px; 
+    height: 310px;
+}
+@media (max-width: 1024px){
+
+    nav ul li{
+        
+        padding: 1% 13%;
+    } 
+    #video{
+        overflow:hidden;
+    }
+    video{
+        height:auto;
+        width: auto;
+        overflow: hidden;
+    }
+    #nosotros{
+        overflow: hidden;
+    }
+    #newsletter{
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .contenedor{
+ 
+        flex-direction: row;
+        
+
+    }
+.productoRopa1{
+    margin: 5px;
+}
+.productoRopa2{
+    margin: 5px;
+}
+.productoRopa3{
+    margin: 5px;
+}
+.productoRopa4{
+    margin: 5px;
+}
+.productoBolso1{
+    margin: 4px;
+}
+.productoBolso1 img{
+    width: 209px;
+    height: 300px;
+}
+.productoBolso2{
+    margin: 4px;
+}
+.productoBolso3{
+    margin: 4px;
+}
+.productoBolso3 img{
+    width: 222px;
+    height: 295px;
+}
+.productoBolso4{
+    margin: 4px;
+}
+.productoBolso4 img{
+    width: 219px;
+    height: 290px;
+}
+.productoAmi1{
+    margin: 5px;
+}
+.productoAmi2{
+    margin: 5px;
+}
+.productoAmi3{
+    margin: 5px;
+}
+.productoAmi4{
+    margin: 5px;
+}
+    form div{
+        margin: auto;
+        width: 220px;
+    }
+    footer{
+        overflow: hidden;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    nav ul li{
+        
+        padding: 1% 10%;
+    } 
+    #video{
+        overflow:hidden;
+    }
+    video{
+        height:auto;
+        width: auto;
+        overflow: hidden;
+    }
+    #nosotros{
+        overflow: hidden;
+    }
+    #newsletter{
+        overflow: hidden;
+    }
+
+    .contenedor{
+        display:flex;
+        flex-wrap: wrap;
+
+    }
+    .productoBolso1{
+       margin-left: 6%;
+    }
+    .productoBolso2{
+        margin-left: 6%;  
+    }
+    .productoBolso2 img{
+        width: 340px; 
+        height: 230px;
+    }
+    form div{
+        margin: auto;
+        width: 220px;
+    }
+    footer{
+        overflow: hidden;
+    }
+}
+@media (max-width: 480px){
+
+    header{
+
+       display: inline;
+
+    }
+    header div{
+      margin-left: 20%;
+    }
+    header a.btn button{
+      margin-left: 10%;
+      
+    }
+
+    nav ul li{
+        padding: 1% 8%;
+    } 
+    #video{
+        overflow:hidden;
+    }
+    video{
+        height:auto;
+        width: auto;
+        overflow: hidden;
+    }
+    #nosotros{
+        overflow: hidden;
+    }
+    #newsletter{
+        overflow: hidden;
+    }
+
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    form div{
+        margin: auto;
+        width: 220px;
+    }
+    footer{
+        overflow: hidden;
+    }
+}
